@@ -1,0 +1,54 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Cinzel&display=swap');
+
+*{
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+ font-family: "Rubik",sans-serif;
+
+}
+body{
+    background-color: #fab22e;
+}
+.wrapper{
+    width: 80vmin;
+    padding: 50px 40px;
+    background-color: black;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 5px;
+    box-shadow: 20px 20px 40px rgba(97,63,0,0.4);
+}
+span{
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 100px;
+}
+p{
+    color: #fff;
+    font-size: 25px;
+font-weight: 400;
+text-align: center;
+word-wrap: break-word;
+line-height: 35px;
+margin: 30px 0;
+font-family: 'Caveat', cursive;
+}
+button{
+    display: block;
+    background-color: #fab22e;
+    border: none;
+    padding: 5px;
+    font-size: 18px;
+    color: #171212;
+    font-weight: 600;
+    padding: 12px 25px;
+    margin: 0 auto;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
